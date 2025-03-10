@@ -1,0 +1,38 @@
+# 依赖目录
+node_modules/
+/rag-frontend/node_modules/
+
+# 构建输出
+/rag-frontend/build/
+/rag-frontend/dist/
+
+# 环境变量文件（包含敏感信息）
+.env
+/rag-backend/.env
+
+# 上传的文件
+/rag-backend/uploads/
+
+# 日志文件
+*.log
+
+# Go二进制文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go工作目录
+/rag-backend/vendor/
+/rag-backend/go.sum
+
+# IDE和编辑器文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 操作系统文件
+.DS_Store
+Thumbs.db 
